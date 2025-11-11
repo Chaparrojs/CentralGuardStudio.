@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mantenimiento de Computadores</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fc;
+    padding: 30px;
+    margin: 0;
+  }
+
+  h1 {
+    color: #0a2a5e;
+    text-align: center;
+  }
+
+  p {
+    color: #333;
+    max-width: 800px;
+    margin: 15px auto;
+    text-align: justify;
+    line-height: 1.6;
+  }
+
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: 30px auto;
+  }
+
+  .galeria img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+  }
+
+  .galeria img:hover {
+    transform: scale(1.05);
+  }
+
+  a.volver {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: #0a2a5e;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Boton flotante de WhatsApp */
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: transform 0.3s;
+  }
+
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+
+  .whatsapp-icon {
+    width: 45px;
+    height: 45px;
+  }
+</style>
+</head>
+<body>
+  <h1>Mantenimiento de Computadores</h1>
+
+  <p>Ofrecemos servicios especializados en mantenimiento preventivo y correctivo de computadores. Realizamos limpieza profunda interna y externa, revision de hardware, optimizacion del sistema operativo y actualizacion de software. Nuestro objetivo es mejorar el rendimiento, prevenir fallas y prolongar la vida útil de tus equipos.</p>
+
+  <p>Brindamos soporte tanto a usuarios particulares como a empresas, asegurando equipos confiables y operativos. Ademas, instalamos antivirus, sistemas operativos y configuramos redes locales para maximizar la productividad de tu entorno de trabajo.</p>
+
+  <div class="galeria">
+    <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1536/https://gabsof.com.mx/wp-content/uploads/2019/12/2105326-laptop-16790-1536x1024.jpg" alt="Técnico realizando mantenimiento de computador">
+    <img src="https://pcracing.pro/wp-content/uploads/2024/06/Como-formatear-un-pc-Guia-Completa.webp" alt="Revisión de componentes internos">
+    <img src="https://inforepara.es/wp-content/uploads/2019/10/polvo_ordenador_problema_01.jpg" alt="Limpieza y diagnóstico de PC">
+
+  </div>
+
+  <a href="index.html" class="volver">⬅ Volver al inicio</a>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/3115311130?text=¡Hola!%20Estoy%20interesado%20en%20el%20servicio%20de%20mantenimiento%20de%20computadores." 
+     class="whatsapp-float" 
+     target="_blank" 
+     title="Chatea con nosotros por WhatsApp">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          alt="WhatsApp"
+          class="whatsapp-icon">
+  </a>
+
+</body>
+</html>
+
+
+<!-- Seccion de contacto por WhatsApp -->
+<section class="whatsapp-section">
+  <h2>Contactanos por <span>WhatsApp</span></h2>
+  <p>Estamos listos para atenderte y resolver tus dudas sobre nuestros servicios de seguridad y mantenimiento.</p>
+
+  <a href="https://wa.me/573115311130?text=¡Hola!%20Estoy%20interesado%20en%20sus%20servicios%20de%20seguridad." 
+     class="whatsapp-button" 
+     target="_blank">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+     Chatear por WhatsApp
+  </a>
+
+  <div class="whatsapp-info">
+    <p><strong>Horario de atencion:</strong> Lunes a Viernes 8:00 AM - 6:00 PM</p>
+    <p><strong>Respuesta inmediata:</strong> Te atenderemos en menos de 5 minutos</p>
+  </div>
+</section>
+
+<style>
+/* ===== Estilos del bloque compacto de WhatsApp ===== */
+.whatsapp-section {
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 40px;
+  border-top: 2px solid #25D366;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.whatsapp-section h2 {
+  font-size: 1.6rem;
+  color: #0d2c54;
+  margin-bottom: 10px;
+}
+
+.whatsapp-section h2 span {
+  color: #25D366;
+}
+
+.whatsapp-section p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.15);
+}
+
+.whatsapp-button:hover {
+  background-color: #20b358;
+  transform: scale(1.05);
+}
+
+.whatsapp-icon {
+  width: 18px;   /* 👈 mas pequeño */
+  height: 18px;
+}
+
+.whatsapp-info {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #333;
+}
+</style>
+
+
+</style>
